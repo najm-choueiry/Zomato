@@ -5,7 +5,7 @@ import { CategoriesComponent } from './pages/categories/categories.component';
 import { RestaurantItemsComponent } from './pages/restaurant-items/restaurant-items.component';
 import { CreateOrderComponent } from './pages/create-order/create-order.component';
 
-const routes: Routes = [
+export const routes: Routes = [
     {
         path: 'Login',
         component: LoginComponent
